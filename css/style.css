@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url(../fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: 0;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+li {
+    list-style-type: none;
+}
+
+.container{
+    width: 1376px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.light  {
+ background-color: white;
+}
+
+.light * {
+  color: white !important;
+  background-color: #030303 !important;
+}
+/* ----------------------------- navbar start ----------------------------- */
+
+#header{
+    position: sticky;
+    background-image: linear-gradient(to right,  #030303 0 50%, #59B9FF 50% 50%);
+    padding-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 715px;
+}
+
+.list-item a {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.list-item a:hover {
+    color: #FAC422;
+}
+
+.navbar-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-contact-1 {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-contact{
+    box-sizing: border-box;
+    width: 178px;
+    height: 62px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+.navbar-contact a {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.navbar-contact a:hover {
+    color: #FAC422;
+}
+
+/* ----------------------------- navbar end ----------------------------- */
+/* ----------------------------- home start ----------------------------- */
+
+#home {
+    padding-top: 214px;  
+    background-image: linear-gradient(to right,  #030303 0 50%, #59B9FF 50% 50%);
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comp-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px; 
+}
+
+.comp-name p {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+
+.home-text > h1 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+.home-text > p {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+}
+.home-btn {
+    margin-top: 53px;
+    margin-bottom: 250px;
+}
+.home-btn > button {
+    width: 203px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+}
+.home-btn > button:hover {
+    background-color: #59B9FF;
+}
+.home-btn a{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+/* ----------------------------- home end ----------------------------- */
+/* ----------------------------- shop start ----------------------------- */
+
+#shop {
+    background-image: url(../assets/images/shop.png);
+    padding-bottom: 350px;
+}
+.shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1072px;
+}
+.comp-name-2 {
+    padding-top: 130px;
+    padding-bottom: 12px;
+}
+.shop > h2 {
+    width: 716px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.shop > p {
+    padding-top: 39px;
+    padding-bottom: 60px;
+    width: 698px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(223, 223, 223, 0.8);
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.card-mini {
+    display: flex;
+    align-items: start;
+    width: 642px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 35px 38px;
+}
+.card-text {
+    padding-left: 17px;
+}
+.card-text h3 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 19px;
+}
+
+.card-text p {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(223, 223, 223, 0.8);
+}
+
+/* ----------------------------- shop end ----------------------------- */
+/* ----------------------------- era start ----------------------------- */
+
+#era {
+    background-color: #030303;
+    padding-top: 86px;
+    padding-bottom: 85px;
+}
+.era {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+}
+.era-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 492px;
+    height: 550px;
+    z-index: 99;
+    background-image: url(../assets/images/era-img.png);
+    background-repeat: no-repeat;
+}
+.era-image button {
+    border: none;
+    background-color: transparent;
+}
+.era-text {
+    width: 732px;
+}
+.era-text h2 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.era-text > p {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+}
+.home-btn1 > button {
+    width: 203px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+}
+.home-btn1 > button:hover {
+    background-color: #59B9FF;
+}
+.home-btn1 {
+    margin-top: 53px;
+}
+.home-btn1 a{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}

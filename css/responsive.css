@@ -40,6 +40,9 @@
     .era-text{
         width: 50%;
     }
+    .multiplayer-card  > img {
+        width:380px;
+    }
 }
 
 @media (max-width:1250px) {

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url(../fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: 0;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+li {
+    list-style-type: none;
+}
+
+.container{
+    width: 1376px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.light  {
+ background-color: white !important;
+}
+
+.light * {
+  color: white !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.light #header {
+    background-color: #59B9FF !important;
+}
+.light #home {
+    background-color: #59B9FF !important;
+}
+
+.light #era {
+    background-color: #59B9FF !important;
+}
+.light .home-btn > button:hover {
+    background-color:#030303;
+}
+.light .home-btn1 > button:hover {
+    background-color: #030303;
+}
